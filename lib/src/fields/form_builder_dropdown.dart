@@ -234,7 +234,7 @@ class FormBuilderDropdown<T> extends FormBuilderField<T> {
             // TextFormField
 
             void changeValue(T? value) {
-              state.requestFocus();
+//               state.requestFocus();
               state.didChange(value);
             }
 
