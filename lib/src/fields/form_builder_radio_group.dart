@@ -78,7 +78,7 @@ class FormBuilderRadioGroup<T> extends FormBuilderField<T> {
                 value: state.value,
                 options: options,
                 onChanged: (val) {
-                  state.requestFocus();
+//                   state.requestFocus();
                   state.didChange(val);
                 },
                 disabled: state.enabled
